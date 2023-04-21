@@ -1,0 +1,24 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.5.0"
+  },
+  "generatorName": "go",
+  "packageName": "my-go-client",
+  "packageNameSlug": "my-go-client",
+  "projectName": "My Go Client",
+  "packageVersion": "1.0.0",
+  "gitUserId": "myusername",
+  "gitRepoId": "my-go-client",
+  "gitHost": "github.com",
+  "httpUserAgent": "My Go Client/1.0.0",
+  "apiPackage": "api",
+  "modelPackage": "model",
+  "invokerPackage": "client",
+  "removeOperationIdPrefix": true,
+  "additionalProperties": {
+    "supportsES6": true,
+    "useOneOfDiscriminatorLookup": true
+  }
+}
